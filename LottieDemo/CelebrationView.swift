@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CelebrationView: View {
     @State private var score = 0
+    @State private var play = false
     var body: some View {
         NavigationStack {
             ZStack {
@@ -18,6 +19,7 @@ struct CelebrationView: View {
                         print(score)
                         if score == 5 {
                             print("Celebrate")
+                            play = true
                         } else {
                             print("Not Yet")
                         }
@@ -26,8 +28,15 @@ struct CelebrationView: View {
                     Text("Score: \(score)")
                 }
                 .navigationTitle("Celebration")
-                LottieView(name: Constants.confetti)
+                LottiePlusView(name: Constants.confetti,
+                               animationSpeed: 2,
+                               contentMode: .scaleAspectFill,
+                               play:$play)
+                .id(score)
+                .allowsHitTesting(false)
             }
+            .ignoresSafeArea()
+            
         }
     }
 }

@@ -28,8 +28,9 @@ struct AddProgressView: View {
                 }
                 .disabled(inProgress)
                 if inProgress {
-                    LottieView(name: Constants.blueDots,loopmode: .loop)
-                        .scaleEffect(0.3)
+                    LottiePlusView(name: Constants.politeChicky,loopmode: .loop)
+                        .padding()
+                        .frame(width: 250)
                 }
             }
             .navigationTitle("Custom Progress")

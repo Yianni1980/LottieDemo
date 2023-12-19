@@ -24,6 +24,7 @@
 		0BC137302B306C5E0062D9C0 /* Cascading Likes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BC1372B2B306C5E0062D9C0 /* Cascading Likes.json */; };
 		0BC137312B306C5E0062D9C0 /* Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BC1372C2B306C5E0062D9C0 /* Confetti.json */; };
 		0BC137332B306DE90062D9C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC137322B306DE90062D9C0 /* Constants.swift */; };
+		0BC137352B319D030062D9C0 /* LottiePlusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC137342B319D030062D9C0 /* LottiePlusView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0BC1372B2B306C5E0062D9C0 /* Cascading Likes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Cascading Likes.json"; sourceTree = "<group>"; };
 		0BC1372C2B306C5E0062D9C0 /* Confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti.json; sourceTree = "<group>"; };
 		0BC137322B306DE90062D9C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0BC137342B319D030062D9C0 /* LottiePlusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottiePlusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				0BC137282B306C5E0062D9C0 /* Polite Chicky.json */,
 				0BC1372A2B306C5E0062D9C0 /* Progress Stars.json */,
 				0BC137322B306DE90062D9C0 /* Constants.swift */,
+				0BC137342B319D030062D9C0 /* LottiePlusView.swift */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				0BC137212B3068BF0062D9C0 /* LikePost.swift in Sources */,
 				0BC1371C2B3068290062D9C0 /* CelebrationView.swift in Sources */,
 				0BC1371A2B3067450062D9C0 /* AddProgressView.swift in Sources */,
+				0BC137352B319D030062D9C0 /* LottiePlusView.swift in Sources */,
 				0BC1370C2B3066EC0062D9C0 /* ContentView.swift in Sources */,
 				0BC1370A2B3066EC0062D9C0 /* LottieDemoApp.swift in Sources */,
 				0BC137272B306BE30062D9C0 /* LottieView.swift in Sources */,
